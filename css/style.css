@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #222021;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.all{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header .inside{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 40px;
+}
+
+header .inside #header-img{
+    width: 50px;
+}
+
+header .inside #header-img img{
+    width: 100%;
+}
+
+header .inside #nav-bar a{
+    color: #fff;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.main .inside-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.main .inside-main .info{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    color: #AFADAE;
+}
+
+.main .inside-main .info .logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .inside-main .info .logo img{
+    width: 20%;
+}
+
+.main .inside-main .info .logo .title{
+    font-size: 70px;
+}
+
+.main .inside-main .info .subtitle{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main .inside-main .info p{
+    margin-bottom: 20px;
+}
+
+.main .inside-main .info .buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main .inside-main .info .buttons .btn{
+    width: 49%;
+    padding: 10px;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.main .inside-main .info .buttons .buy-now{
+    background: #F91354;
+}
+
+.main .inside-main .info .buttons .learn-more{
+    background: #57C6FD;
+}
+.main .inside-main .img-apple-watch{
+    width: 33%;
+}
+
+.main .inside-main .img-apple-watch img{
+    width: 100%;
+}
+
+.main .inside-main .video{
+    width: 33%;
+}
+.main .inside-main .video video{
+    width: 100%;
+}
+
+.form .inside-form{
+    width: 100%;
+    padding: 40px;
+    color: #AFADAE;
+}
+
+.form .inside-form p{
+    margin-bottom: 10px;
+}
+
+.form .inside-form form{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.form .inside-form form input[type="email"]{
+    background: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #fff;
+    width: 90%;
+}
+
+.form .inside-form form button{
+    text-align: left;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background: #049336;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
